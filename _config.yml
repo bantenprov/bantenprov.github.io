@@ -1,0 +1,63 @@
+# Setup
+title:               Tim Developer Banten
+email:               developer.banten@gmail.com
+tagline:             Banten developers
+url:                 "http://dev.bantenprov.go.id"
+baseurl:             "/"
+
+# About/contact
+author: Tim DevBanten
+name: Developer Banten
+url: https://github.com/bantenprov
+email:
+
+# Google services
+google_verification:
+# Use either direct GA implementation or set up GTM account
+# - using both will skew your data (leave blank to not use at all)
+google_analytics:
+google_tag_manager:
+# Bing services
+bing_verification:
+
+# Social
+github_username: bantenprov
+twitter_username: devbanten
+instagram_username: 
+facebook:
+linkedin_username: 
+dribbble_username:
+
+# Custom vars
+version: 1.0.1
+github:
+repo: https://github.com/bantenprov/bantenprov.github.io
+# Gems - Dependencies for this theme
+gems:
+  # None currently
+
+# Build settings
+markdown:     kramdown
+permalink:    pretty
+
+widgets:
+  - title: Tentang
+    url: about
+    archor: true
+  - title: Features
+    url: features
+    archor: true
+  - title: Dokumen
+    url: docs
+    archor: true
+  - title: License
+    url: license
+    archor: true
+  - title: Kontak
+    url: contact
+    archor: true
+ 
+# - title: Blog
+#    url: blog
+#  - title: Page
+#    url: page
